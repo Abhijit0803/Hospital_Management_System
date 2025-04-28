@@ -1,4 +1,4 @@
-# hotel-management-system &nbsp; ![Generic badge](https://img.shields.io/badge/Semester-Project-red.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/code-chaser/hotel-management-system/blob/main/LICENSE) [![Generic badge](https://img.shields.io/badge/See-Team-blue.svg)](#made-with--by) [![Forks: Count](https://img.shields.io/github/forks/code-chaser/hotel-management-system?color=purple&label=Forks)](https://github.com/code-chaser/hotel-management-system/network/members)
+
 ## Introduction 
 A hotel management system, made using object oriented programming and file handling in Java, that keeps records of guests & their bookings, rooms, admins, staff, etc. ...
 ___
@@ -71,21 +71,13 @@ ___
 
 
 
-## Made with 🤍 by:
 
 <br>
-<a href="https://github.com/code-chaser/hotel-management-system/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=code-chaser/hotel-management-system" />
+
 </a>
 <br>
 <br>
 
-- Yashvardhan Baid - [code-chaser](https://github.com/code-chaser)
-- Prerak Mathur - [PrerakMathur20](https://github.com/PrerakMathur20)
-- Ayush Kumar - [ayush0402](https://github.com/ayush0402)
-- Tejas Taneja - [Tj8864](https://github.com/Tj8864)
-- Shreya Tarwey - [ShreyaTarwey](https://github.com/ShreyaTarwey)
-- Akshay Bhatnagar - [Astrra](https://github.com/Astrra)
 
 
 <br>
