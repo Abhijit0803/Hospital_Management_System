@@ -1,76 +1,95 @@
-# Library Management System 📚
+# hotel-management-system &nbsp; ![Generic badge](https://img.shields.io/badge/Semester-Project-red.svg) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/code-chaser/hotel-management-system/blob/main/LICENSE) [![Generic badge](https://img.shields.io/badge/See-Team-blue.svg)](#made-with--by) [![Forks: Count](https://img.shields.io/github/forks/code-chaser/hotel-management-system?color=purple&label=Forks)](https://github.com/code-chaser/hotel-management-system/network/members)
+## Introduction 
+A hotel management system, made using object oriented programming and file handling in Java, that keeps records of guests & their bookings, rooms, admins, staff, etc. ...
+___
+### Check Out:
+1. [BUILD & EXECUTE](#build--execute)
+2. [SCREENSHOTS](#screenshots)
+3. [TECH STACK](#tech-stack)
+4. [TEAM](#made-with--by)
+___
+## Instructions
+### BUILD & EXECUTE
+- For Windows users: firstly install ` make ` for executing ` Makefile `, from this [link](https://stackoverflow.com/questions/32127524/how-to-install-and-use-make-in-windows);
+- For Linux users: ` make ` generally comes pre-installed;
+   - if not, then run the following command: ` sudo apt-get install make `
+   <br>
+- Now, run the following commands in the root directory:
+   - for building class files: 
+  ```bash
+     cd ./src
+     make compile
+  ```
+   - for executing them:
+  ```bash
+     cd ./bin
+     make run
+  ```
+   - for cleaning build folder:
+  ```bash
+     cd ./bin
+     make clean      # for linux
+     make clean(win) # for windows
+  ```
 
-A simple Library Management System developed in Java, allowing users to borrow and return books with ease. The system enables users to interact with a collection of books and view available books, borrow books, and return them. 📖💡
+<br>
 
-## Features ✨
+___
+## Screenshots
 
-- **Add Books** ➕: Add books to the library collection.
-- **Display Available Books** 👀: View a list of books that are available to borrow.
-- **Borrow Books** 🎧: Borrow a book if it's available.
-- **Return Books** 🔙: Return a book to the library.
-- **Exit Option** 🚪: Exit the system after completing operations.
+<br>
 
-## Technologies Used 🛠️
+<!-- screenshots here -->
 
-- Java ☕
-- Object-Oriented Programming (OOP) 🔄
-- Data Structures: ArrayList 📊
+![image](https://user-images.githubusercontent.com/63065397/156932685-a33e3d71-15a8-47ed-b9ed-aec46e3e4110.png)
 
-## How to Use 🚀
 
-1. **Clone the Repository**:
-   To use the Library Management System, clone the repository to your local machine:
-   ```bash
-   git clone <repo-url>
-   ```
 
-2. **Run the Program**:
-   Open the project in your favorite IDE (like IntelliJ IDEA or Eclipse) or run it from the terminal:
-   ```bash
-   java LibraryManagementSystem
-   ```
+![image](https://user-images.githubusercontent.com/63065397/156932738-caa72485-5b88-492c-b7dc-9969872f870c.png)
 
-3. **Interact with the System**:
-   - You will be prompted with a list of available books in the library.
-   - You will have the option to either **borrow** or **return** a book.
-   - Type `exit` to quit the program. 👋
 
-## Example Workflow 🔄
 
-- The user can first see the list of available books.
-- The user will then be prompted to either borrow or return a book.
-- If the user chooses to borrow a book, they will enter the book's title and author, and the book will be marked as borrowed. 📚
-- Similarly, if the user chooses to return a book, they will enter the title and author, and the book will be marked as returned. 🔄
+![image](https://user-images.githubusercontent.com/63065397/156932782-0d516ffa-fc0a-4798-b792-d6f72ee75be4.png)
 
-## Code Structure 🏗️
 
-- **Library.java** 📦: Contains the logic for adding books, displaying available books, borrowing, and returning books.
-- **Book.java** 📖: Represents individual books with properties such as title, author, and availability status.
-- **LibraryManagementSystem.java** 🎮: Contains the main program logic, where the user interacts with the system via the console.
 
-## Example:
+![image](https://user-images.githubusercontent.com/63065397/156932854-433dfc5c-5e9b-428c-970a-d1cf3fc63fa3.png)
 
-```
-Available Books:
-Verity by Colleen Hoover
-The Secret by Rhonda Byrne
-Grit by Angela Duckworth
 
-Do you want to borrow or return a book?
-Type 'borrow' to borrow a book, 'return' to return a book, or 'exit' to quit.
-borrow
 
-Enter the title of the book you want to borrow: The Secret
-Enter the author of the book you want to borrow: Rhonda Byrne
-You have successfully borrowed 'The Secret' by Rhonda Byrne. ✅
+<br>
 
-Available Books:
-Verity by Colleen Hoover
-Grit by Angela Duckworth
-```
+___
+## Tech Stack
+- JAVA
 
-## Future Enhancements 🔮
 
-- Implement search functionality to search for books by title or author 🔍.
-- Add a due date feature for borrowed books 📅.
-- Implement user authentication to maintain a history of borrowed books for each user 🧑‍💻.
+<br>
+
+___
+
+
+
+
+## Made with 🤍 by:
+
+<br>
+<a href="https://github.com/code-chaser/hotel-management-system/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=code-chaser/hotel-management-system" />
+</a>
+<br>
+<br>
+
+- Yashvardhan Baid - [code-chaser](https://github.com/code-chaser)
+- Prerak Mathur - [PrerakMathur20](https://github.com/PrerakMathur20)
+- Ayush Kumar - [ayush0402](https://github.com/ayush0402)
+- Tejas Taneja - [Tj8864](https://github.com/Tj8864)
+- Shreya Tarwey - [ShreyaTarwey](https://github.com/ShreyaTarwey)
+- Akshay Bhatnagar - [Astrra](https://github.com/Astrra)
+
+
+<br>
+
+___
+> #### _*Hope you like it!*_
+___
